@@ -1,8 +1,6 @@
-import pydot
+import streamlit as st
 import pandas as pd
-import streamlit as st # Import streamlit
-import matplotlib.pyplot as plt # Import matplotlib
-import seaborn as sns # Import seaborn
+import numpy as np
 
 # Charger les données
 df = pd.read_excel("C:\\Users\\barbu\\Downloads\\salaries_data.xlsx", sheet_name="Sheet1")
