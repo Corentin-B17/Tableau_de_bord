@@ -1,4 +1,3 @@
-pip install streamlit
 import pydot
 import pandas as pd
 import streamlit as st # Import streamlit
